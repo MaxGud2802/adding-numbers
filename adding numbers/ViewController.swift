@@ -17,6 +17,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         labelMathOutput.text = String(index)
+        labelMathOutput.textColor = .white
+        viewHolder.backgroundColor = .clear
+        viewBackground.backgroundColor = .black
         
     }
     @IBAction func buttonMinusOne(_ sender: Any) {
