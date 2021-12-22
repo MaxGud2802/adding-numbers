@@ -23,10 +23,13 @@ class ViewController: UIViewController {
         
     }
     @IBAction func buttonMinusOne(_ sender: Any) {
-        labelMathOutput.text = String(index-1)
+        index=index-1
+        labelMathOutput.text = String(index)
+        
     }
     @IBAction func buttonPlusOne(_ sender: Any) {
-        labelMathOutput.text = String(index+1)
+        index=index+1
+        labelMathOutput.text = String(index)
 
     }
 }
