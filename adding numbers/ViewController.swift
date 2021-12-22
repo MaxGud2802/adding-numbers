@@ -20,19 +20,11 @@ class ViewController: UIViewController {
         
     }
     @IBAction func buttonMinusOne(_ sender: Any) {
-        if index == index {
-            index+1
-        } else {
-            index+1
-        }
-        
+        labelMathOutput.text = String(index-1)
     }
     @IBAction func buttonPlusOne(_ sender: Any) {
-        if index == index {
-            index-1
-        } else {
-            index-1
-        }
+        labelMathOutput.text = String(index+1)
+
     }
 }
 
